@@ -1,0 +1,21 @@
+.button {
+  width: 42px;
+  border-radius: 6px;
+  border: 1px solid black;
+  margin: 1px;
+  cursor: pointer;
+}
+.button:hover {
+  transform: scale(1.05);
+}
+.button:active {
+  transform: scale(0.98);
+}
+#calc-body {
+  width: max-content;
+  border: 2px solid black;
+}
+#screen {
+  text-align: right;
+  margin-right: 4px;
+}
